@@ -158,11 +158,10 @@ Result → All files restored
 ---
 
 ## 👨‍💻 Author
-| Name           |
-| -------------- |
-| Aditya Shejwal |
-| Role                                          |
-| --------------------------------------------- |
-| Java Developer                                |
-| Learning System Programming and File Handling |
+
+Aditya Shejwal
+<br>                                          
+
+Java Developer                                
+ Learning System Programming and File Handling 
 
