@@ -1,4 +1,4 @@
-📦 Packer – Unpacker Project (Java)
+# 📦 Packer – Unpacker Project (Java)
 
 A Java-based File Packer and Unpacker system that combines multiple files from a folder into a single packed file and later restores the original files.
 
@@ -6,110 +6,172 @@ This project demonstrates Java File Handling, File Streams, and Header-based Sto
 
 ---
 
-📖 Project Overview
-----------------------------
+## 📖 Project Overview
+|------------|----------------|
 | Operation |	Description   |
-Packing	Combines multiple files into one packed file
-Unpacking	Extracts original files from packed file
-Header Creation	Stores file name and file size
-File Restoration	Recreates files during unpacking
-✨ Features
-Feature	Description
-📁 Multi File Packing	Pack multiple files into a single file
-📂 File Extraction	Restore original files
-⚡ Fast Processing	Uses Java File Streams
-🧾 Header Based Storage	Stores metadata before file data
-🛠 Technologies Used
-Technology	Usage
-Java	Programming Language
-File	Directory and File Handling
-FileInputStream	Reading File Data
-FileOutputStream	Writing File Data
-Scanner	Taking User Input
-📂 Project Structure
+| Packing	 | Combines multiple files into one packed file |
+| Unpacking	| Extracts original files from packed file |
+| Header Creation |	Stores file name and file size |
+| File Restoration	| Recreates files during unpacking |
+
+---
+## ✨ Features
+|-------|------------|
+| Feature	| Description |
+| 📁 Multi File Packing	 | Pack multiple files into a single file |
+| 📂 File Extraction |	Restore original files |
+| ⚡ Fast Processing |	Uses Java File Streams |
+| 🧾 Header Based Storage |	Stores metadata before file data |
+
+---
+
+## 🛠 Technologies Used
+|----------|-----------|
+| Technology |	Usage |
+| Java	| Programming Language |
+| File	| Directory and File Handling |
+| FileInputStream |	Reading File Data |
+| FileOutputStream	| Writing File Data |
+| Scanner |	Taking User Input |
+
+---
+
+## 📂 Project Structure
 Packer-Unpacker
+<br>
 │
+<br>
 ├── Packing.java
+<br>
 ├── UnPacking.java
+<br>
 └── README.md
-⚙️ Classes / Methods Used
-Class / Method	Purpose
-File	Handle files and directories
-FileInputStream	Read file data
-FileOutputStream	Write file data
-createNewFile()	Create packed file
-listFiles()	List files from directory
-exists()	Check file existence
-isDirectory()	Verify directory
-read()	Read bytes
-write()	Write bytes
-▶️ Compilation
+
+---
+
+## ⚙️ Classes / Methods Used
+|--------------|---------|
+| Class / Method	 | Purpose |
+| File	| Handle files and directories |
+| FileInputStream	 | Read file data |
+| FileOutputStream	| Write file data |
+| createNewFile()	| Create packed file |
+| listFiles()	| List files from directory |
+| exists()	| Check file existence |
+| isDirectory()	| Verify directory |
+| read()	| Read bytes |
+| write()	| Write bytes |
+
+---
+
+## ▶️ Compilation
 javac Packing.java
+<br>
 javac UnPacking.java
-▶️ Run Packing Program
-java Packing
 
-Example Input
+---
 
+## ▶️ Run Packing Program
+java Packing.java
+<br>
+
+## Example Input.java
+<br>
 Enter Folder Name :
 DemoFolder
 
-Enter Packed File Name :
-PackedFile.txt
-▶️ Run UnPacking Program
-java UnPacking
-
-Example Input
+<br>
 
 Enter Packed File Name :
+<br>
 PackedFile.txt
-🔄 Working Flow
-Packing Process
 
-User enters folder name
+---
 
-Program scans all files inside the folder
+## ▶️ Run UnPacking Program
+<br>
+java UnPacking.java
+<br>
 
-Header is created (File Name + File Size)
+## Example Input
 
-Header written into packed file
+Enter Packed File Name :
+<br>
+PackedFile.txt
 
-File data appended after header
+---
 
-Process repeats for all files
+## 🔄 Working Flow
+<br>
+
+## Packing Process
+<br>
+1. User enters folder name
+<br>
+2. Program scans all files inside the folder
+<br>
+3. Header is created (File Name + File Size)
+<br>
+4. Header written into packed file
+<br>
+5. File data appended after header
+<br>
+6. Process repeats for all files
+<br>
 
 Result → Single packed file created
 
-Unpacking Process
+---
 
-User enters packed file name
+## Unpacking Process
 
-Program reads header information
-
-Extracts file name and size
-
-Creates new file
-
-Writes original data
-
+1. User enters packed file name
+<br>
+2. Program reads header information
+<br>
+3. Extracts file name and size
+<br>
+4. Creates new file
+<br>
+5. Writes original data
+<br>
 Result → All files restored
 
-📊 Example
-Input Folder
+---
+
+## 📊 Example
+## Input Folder
+<br>
 DemoFolder
+<br>
 │
+<br>
 ├── file1.txt
+<br>
 ├── file2.txt
+<br>
 └── file3.txt
-Packed File
+
+
+## Packed File
+<br>
 PackedFile.txt
-After Unpacking
+---
+
+## After Unpacking
+<br>
 file1.txt
+<br>
 file2.txt
+<br>
 file3.txt
-👨‍💻 Author
+
+---
+
+## 👨‍💻 Author
 
 Aditya Shejwal
-
+<br>
 Java Developer
+<br>
 Learning System Programming and File Handling
