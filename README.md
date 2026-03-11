@@ -105,22 +105,16 @@ PackedFile.txt
 ---
 
 ## 🔄 Working Flow
-<br>
 
-## Packing Process
-<br>
-1. User enters folder name
-<br>
-2. Program scans all files inside the folder
-<br>
-3. Header is created (File Name + File Size)
-<br>
-4. Header written into packed file
-<br>
-5. File data appended after header
-<br>
-6. Process repeats for all files
-<br>
+| Step | Description                            |
+| ---- | -------------------------------------- |
+| 1    | User enters folder name                |
+| 2    | Program scans files in folder          |
+| 3    | Header created (File Name + File Size) |
+| 4    | Header written to packed file          |
+| 5    | File data appended                     |
+| 6    | Process repeats for all files          |
+
 
 Result → Single packed file created
 
@@ -128,53 +122,48 @@ Result → Single packed file created
 
 ## Unpacking Process
 
-1. User enters packed file name
-<br>
-2. Program reads header information
-<br>
-3. Extracts file name and size
-<br>
-4. Creates new file
-<br>
-5. Writes original data
-<br>
+| Step | Description                  |
+| ---- | ---------------------------- |
+| 1    | User enters packed file name |
+| 2    | Program reads header         |
+| 3    | Extracts file name and size  |
+| 4    | Creates new file             |
+| 5    | Writes original file data    |
+
 Result → All files restored
 
 ---
 
 ## 📊 Example
-## Input Folder
-<br>
-DemoFolder
-<br>
-│
-<br>
-├── file1.txt
-<br>
-├── file2.txt
-<br>
-└── file3.txt
+| Input Folder |
+| ------------ |
+| DemoFolder   |
+| file1.txt    |
+| file2.txt    |
+| file3.txt    |
 
 
-## Packed File
-<br>
-PackedFile.txt
+
+| Packed File    |
+| -------------- |
+| PackedFile.txt |
+
 ---
 
-## After Unpacking
-<br>
-file1.txt
-<br>
-file2.txt
-<br>
-file3.txt
+| After Unpacking |
+| --------------- |
+| file1.txt       |
+| file2.txt       |
+| file3.txt       |
 
 ---
 
 ## 👨‍💻 Author
+| Name           |
+| -------------- |
+| Aditya Shejwal |
+| Role                                          |
+| --------------------------------------------- |
+| Java Developer                                |
+| Learning System Programming and File Handling |
 
-Aditya Shejwal
-<br>
-Java Developer
-<br>
-Learning System Programming and File Handling
