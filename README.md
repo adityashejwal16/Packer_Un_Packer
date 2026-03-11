@@ -1,11 +1,14 @@
-#📦 Packer – Unpacker Project (Java)
+📦 Packer – Unpacker Project (Java)
 
 A Java-based File Packer and Unpacker system that combines multiple files from a folder into a single packed file and later restores the original files.
 
 This project demonstrates Java File Handling, File Streams, and Header-based Storage Techniques.
 
+---
+
 📖 Project Overview
-Operation	Description
+----------------------------
+| Operation |	Description   |
 Packing	Combines multiple files into one packed file
 Unpacking	Extracts original files from packed file
 Header Creation	Stores file name and file size
