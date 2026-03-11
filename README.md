@@ -7,8 +7,9 @@ This project demonstrates Java File Handling, File Streams, and Header-based Sto
 ---
 
 ## 📖 Project Overview
-|------------|----------------|
+
 | Operation |	Description   |
+|------------|----------------|
 | Packing	 | Combines multiple files into one packed file |
 | Unpacking	| Extracts original files from packed file |
 | Header Creation |	Stores file name and file size |
@@ -16,8 +17,9 @@ This project demonstrates Java File Handling, File Streams, and Header-based Sto
 
 ---
 ## ✨ Features
-|-------|------------|
+
 | Feature	| Description |
+|------------|----------------|
 | 📁 Multi File Packing	 | Pack multiple files into a single file |
 | 📂 File Extraction |	Restore original files |
 | ⚡ Fast Processing |	Uses Java File Streams |
@@ -26,8 +28,9 @@ This project demonstrates Java File Handling, File Streams, and Header-based Sto
 ---
 
 ## 🛠 Technologies Used
-|----------|-----------|
+
 | Technology |	Usage |
+|----------|-----------|
 | Java	| Programming Language |
 | File	| Directory and File Handling |
 | FileInputStream |	Reading File Data |
@@ -50,8 +53,9 @@ Packer-Unpacker
 ---
 
 ## ⚙️ Classes / Methods Used
-|--------------|---------|
+
 | Class / Method	 | Purpose |
+|------------------|---------|
 | File	| Handle files and directories |
 | FileInputStream	 | Read file data |
 | FileOutputStream	| Write file data |
@@ -91,7 +95,6 @@ PackedFile.txt
 ## ▶️ Run UnPacking Program
 <br>
 java UnPacking.java
-<br>
 
 ## Example Input
 
