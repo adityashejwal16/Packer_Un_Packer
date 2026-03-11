@@ -40,15 +40,12 @@ This project demonstrates Java File Handling, File Streams, and Header-based Sto
 ---
 
 ## 📂 Project Structure
-Packer-Unpacker
-<br>
-│
-<br>
-├── Packing.java
-<br>
-├── UnPacking.java
-<br>
-└── README.md
+| File Name      | Description                  |
+| -------------- | ---------------------------- |
+| Packing.java   | Program used to pack files   |
+| UnPacking.java | Program used to unpack files |
+| README.md      | Project documentation        |
+
 
 ---
 
@@ -69,38 +66,40 @@ Packer-Unpacker
 ---
 
 ## ▶️ Compilation
-javac Packing.java
-<br>
-javac UnPacking.java
+| Command              | Purpose                   |
+| -------------------- | ------------------------- |
+| javac Packing.java   | Compile packing program   |
+| javac UnPacking.java | Compile unpacking program |
+
 
 ---
 
 ## ▶️ Run Packing Program
-java Packing.java
-<br>
+| Command      |
+| ------------ |
+| java Packing.java |
+
 
 ## Example Input.java
-<br>
-Enter Folder Name :
-DemoFolder
-
-<br>
-
-Enter Packed File Name :
-<br>
-PackedFile.txt
+| Input                                   |
+| --------------------------------------- |
+| Enter Folder Name : DemoFolder          |
+| Enter Packed File Name : PackedFile.txt |
 
 ---
 
 ## ▶️ Run UnPacking Program
-<br>
-java UnPacking.java
+| Command        |
+| -------------- |
+| java UnPacking |
+
 
 ## Example Input
 
-Enter Packed File Name :
-<br>
-PackedFile.txt
+| Input                                   |
+| --------------------------------------- |
+| Enter Packed File Name : PackedFile.txt |
+
 
 ---
 
