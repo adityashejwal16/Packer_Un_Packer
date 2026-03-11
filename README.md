@@ -80,7 +80,7 @@ This project demonstrates Java File Handling, File Streams, and Header-based Sto
 | java Packing.java |
 
 
-## Example Input.java
+## Example Input
 | Input                                   |
 | --------------------------------------- |
 | Enter Folder Name : DemoFolder          |
