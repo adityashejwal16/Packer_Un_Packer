@@ -1,4 +1,4 @@
-# 📦 Packer – Unpacker Project (Java)
+# 📦File Packer Unpacker with Encryption Project (Java)
 
 A Java-based File Packer and Unpacker system that combines multiple files from a folder into a single packed file and later restores the original files.
 
